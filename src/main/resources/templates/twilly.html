@@ -15,9 +15,12 @@
 
 
     <p>Here:</p>
-    <input type="text" th:field="*{message}" name="message" size="25" maxlength="30"/>
+    <input type="text" th:field="*{message}" name="message" size="25" maxlength="50"/>
+    <p>What number would you like this message sent to?</p>
+    <input type="text" th:field="*{number}" name="number" size="10" maxlength="10"/>
     <input type="submit" value="SEND" />
 
+    <!--TODO add when? to send message-->
 </form>
 </body>
 </html>

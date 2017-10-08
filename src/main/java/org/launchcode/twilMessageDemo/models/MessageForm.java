@@ -5,6 +5,7 @@ public class MessageForm {
 
 
     private String message;
+    private String number;
 
     public MessageForm() {}
 
@@ -14,5 +15,13 @@ public class MessageForm {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 }
